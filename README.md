@@ -5,7 +5,6 @@ The purpose of this project is to utilize ETL process to help review and analyze
 
 We obtained Starbucks geographical locations data from Kaggle. We used 2013 IRS returns data as a source of information on the incomes in various zip codes. Both data sources were obtained in the form of csv files.
 Starbucks data: https://www.kaggle.com/starbucks/store-locations 
-
 IRS Income by Zip Code: https://data.world/jonloyens/irs-income-by-zip-code
 
 ## ETL
@@ -21,7 +20,7 @@ Once the csv data was extracted and reviewed, we transformed it into pandas data
 - Zip Codes missing the leading zeroes were converted to a five-digit format
 - Relevant columns were renamed and rearranged to be loaded into the Postgres databased appropriately 
 
-**IRS income** data was cleaned by
+**IRS income** data was cleaned by:
 - Ensuring leading zero was added in the Zip Code column
 - Removing NaN values in the Zip Code column
 - Rearranging and renaming the relevant columns 
