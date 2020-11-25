@@ -4,7 +4,7 @@
 The purpose of this project is to utilize ETL process to help review and analyze information from various sources.  ETL stands for Extract, Transform and Load.  Therefore, ETL was used to confirm if Starbucks coffee shops are located primarily in higher-income zip codes. 
 
 We obtained Starbucks geographical locations data from Kaggle. We used 2013 IRS returns data as a source of information on the incomes in various zip codes. Both data sources were obtained in the form of csv files.
-Starbucks data: https://www.kaggle.com/starbucks/store-locations 
+Starbucks data: https://www.kaggle.com/starbucks/store-locations  
 IRS Income by Zip Code: https://data.world/jonloyens/irs-income-by-zip-code
 
 ## ETL
@@ -31,3 +31,7 @@ Both pandas data frames were loaded into corresponding tables in a relational pg
 ## Challenges
 Over the course of this project we encountered a number of challenges. 
 Format of zip codes in Starbucks data set was not standardized, thus column contained anywhere between 9 and 4 values. Hence, transforming data was a two-step process of removing the extra values and adding the missing leading zeroes. 
+
+## Next Steps
+The data loaded can be analyzed to test if Starbucks shops tend to be located in higher income/more affluent zip codes. 
+Dataset can further be updated to inlcude data from other restaurants and shops.
