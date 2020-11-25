@@ -1,5 +1,5 @@
 # Starbucks in High Income Zip Codes: ETL Project
-### Team Members: Medina & Desiree
+### Team Members: Desiree Diaz & Medina Izgutdina
 
 The purpose of this project is to utilize ETL process to help review and analyze information from various sources.  ETL stands for Extract, Transform and Load.  Therefore, ETL was used to confirm if Starbucks coffee shops are located primarily in higher-income zip codes. 
 
